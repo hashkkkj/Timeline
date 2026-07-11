@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"82f26bfa6284ab2d","type":"file","file":"M3D/Data Pod & EcoSensor v1.5.md","x":-1440,"y":-11650,"width":960,"height":820,"color":"#054206"},
+		{"id":"bd7910fdf2bcfdb5","type":"file","file":"M3D/Horizon Gate v1.md","x":1200,"y":-11650,"width":960,"height":820,"color":"#0a17c7"},
+		{"id":"de569053b1b692cb","type":"file","file":"M3D/BioFilter Duo v3.0.md","x":-2640,"y":-11650,"width":960,"height":820,"color":"3"},
+		{"id":"5cfd593217e22a10","type":"file","file":"M3D/Orbital Buoy v2.md","x":0,"y":-11640,"width":960,"height":820,"color":"#490303"},
+		{"id":"26843c352c4fe027","type":"file","file":"M3D/M3D.md","x":-640,"y":-9280,"width":960,"height":820,"color":"#ffffff"},
+		{"id":"045347d3bbbab5ac","type":"text","text":"# Startup M3D","x":-400,"y":-13280,"width":250,"height":60,"color":"1"},
+		{"id":"1ab6eeff03cb9b9d","type":"text","text":"# Integrações","x":1040,"y":-8160,"width":250,"height":60,"color":"2"},
+		{"id":"85641385867f76b4","type":"file","file":"M3D/Pontos de Coleta Comunitária.md","x":1360,"y":-7960,"width":400,"height":400,"color":"2"},
+		{"id":"466b34892dba49dd","type":"file","file":"M3D/Time Fundador — 3 Perfis Certos.md","x":1360,"y":-7400,"width":400,"height":400,"color":"2"}
+	],
+	"edges":[
+		{"id":"685cc10462028805","fromNode":"5cfd593217e22a10","fromSide":"bottom","toNode":"26843c352c4fe027","toSide":"right"},
+		{"id":"b50986319c3b6921","fromNode":"bd7910fdf2bcfdb5","fromSide":"bottom","toNode":"26843c352c4fe027","toSide":"right"},
+		{"id":"76fa6a845cd7a37b","fromNode":"82f26bfa6284ab2d","fromSide":"bottom","toNode":"26843c352c4fe027","toSide":"left"},
+		{"id":"091c7cf04f8349b2","fromNode":"1ab6eeff03cb9b9d","fromSide":"bottom","toNode":"85641385867f76b4","toSide":"left","color":"2"},
+		{"id":"7258b6b9759d68bb","fromNode":"1ab6eeff03cb9b9d","fromSide":"bottom","toNode":"466b34892dba49dd","toSide":"left","color":"2"},
+		{"id":"42ed0779917f3394","fromNode":"de569053b1b692cb","fromSide":"bottom","toNode":"26843c352c4fe027","toSide":"left"},
+		{"id":"2ce6d7784d7e9676","fromNode":"045347d3bbbab5ac","fromSide":"bottom","toNode":"82f26bfa6284ab2d","toSide":"top","color":"4"},
+		{"id":"048e79a859fd3cc1","fromNode":"045347d3bbbab5ac","fromSide":"bottom","toNode":"5cfd593217e22a10","toSide":"top","color":"1"},
+		{"id":"2f49fa47cadfb81c","fromNode":"045347d3bbbab5ac","fromSide":"bottom","toNode":"de569053b1b692cb","toSide":"top","color":"3"},
+		{"id":"8948bc194d44f996","fromNode":"045347d3bbbab5ac","fromSide":"bottom","toNode":"bd7910fdf2bcfdb5","toSide":"top","color":"5"},
+		{"id":"a176650308c3a34c","fromNode":"26843c352c4fe027","fromSide":"bottom","toNode":"1ab6eeff03cb9b9d","toSide":"left","color":"2"}
+	]
+}
